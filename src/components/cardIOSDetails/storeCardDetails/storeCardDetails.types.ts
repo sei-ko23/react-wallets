@@ -1,0 +1,27 @@
+export type StoreCardDetailsProps = {
+  customTitle: string;
+  customTitlePhone: string;
+  description: string;
+  holderLastName: string;
+  holderName: string;
+  kind: string;
+  address: string;
+  schedule: string;
+  accessCodeId: string;
+  offerId: string;
+  couponId: string;
+  phoneNumber: string;
+  phoneNumberSecondary: string;
+  website: string;
+  kindTitle?: string;
+  addressTitle?: string;
+  scheduleTitle?: string;
+  accessCodeIdTitle?: string;
+  offersTitle?: string;
+  couponsTitle?: string;
+  phoneNumberTitle?: string;
+  phoneNumberSecondaryTitle?: string;
+  websiteTitle?: string;
+  titleColor?: string;
+  textColor?: string;
+};

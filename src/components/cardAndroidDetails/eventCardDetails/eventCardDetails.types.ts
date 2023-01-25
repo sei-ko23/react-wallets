@@ -1,0 +1,20 @@
+export type EventCardDetailsProps = {
+  holderName: string;
+  place: string;
+  address: string;
+  openTime: string;
+  startDate: string;
+  ticketNumber: string;
+  value: string;
+  termsAndConditions: string;
+  holderNameTitle?: string;
+  openTimeTitle?: string;
+  startDateTitle?: string;
+  ticketNumberTitle?: string;
+  valueTitle?: string;
+  termsAndConditionsTitle?: string;
+  googleMapsLink: string;
+  phoneNumber: string;
+  email: string;
+  disableNotifications?: string;
+};

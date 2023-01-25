@@ -1,0 +1,22 @@
+export type RoomCardDetailsProps = {
+  startDate: string;
+  endDate: string;
+  kind: string;
+  address: string;
+  holderName: string;
+  ticketNumber: string;
+  termsAndConditions: string;
+  phoneNumber: string;
+  email: string;
+  checkInTitle?: string;
+  checkOutTitle?: string;
+  kindTitle?: string;
+  addressTitle?: string;
+  holderNameTitle?: string;
+  ticketNumberTitle?: string;
+  termsAndConditionsTitle?: string;
+  phoneNumberTitle?: string;
+  emailTitle?: string;
+  titleColor?: string;
+  textColor?: string;
+};

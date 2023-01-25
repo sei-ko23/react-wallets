@@ -1,0 +1,24 @@
+export type EventCardDetailsProps = {
+  eventName: string;
+  address: string;
+  openTime: string;
+  startDate: string;
+  endDate: string;
+  ticketNumber: string;
+  price: string;
+  termsAndConditions: string;
+  googleMapsLink: string;
+  phoneNumber: string;
+  email: string;
+  openTimeTitle?: string;
+  startDateTitle?: string;
+  endDateTitle?: string;
+  ticketNumberTitle?: string;
+  priceTitle?: string;
+  termsAndConditionsTitle?: string;
+  googleMapsLinkTitle?: string;
+  phoneNumberTitle?: string;
+  emailTitle?: string;
+  titleColor?: string;
+  textColor?: string;
+};

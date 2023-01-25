@@ -1,0 +1,24 @@
+export type CinemaCardDetailsProps = {
+  movieName: string;
+  rating: string;
+  customTitle: string;
+  openTime: string;
+  address: string;
+  startDate: string;
+  endDate: string;
+  ticketNumber: string;
+  termsAndConditions: string;
+  phoneNumber: string;
+  email: string;
+  movieNameTitle?: string;
+  ratingTitle?: string;
+  openTimeTitle?: string;
+  startDateTitle?: string;
+  endDateTitle?: string;
+  ticketNumberTitle?: string;
+  termsAndConditionsTitle?: string;
+  phoneNumberTitle?: string;
+  emailTitle?: string;
+  titleColor?: string;
+  textColor?: string;
+};
