@@ -1,6 +1,6 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
-export const Container = styled("div")<{
+export const Container = styled('div')<{
   justifyContent?: string;
 }>`
   padding: 0px 0px 12px;
@@ -12,25 +12,25 @@ export const Container = styled("div")<{
   box-sizing: border-box;
 `;
 
-export const Row = styled("div")<{
+export const Row = styled('div')<{
   gap?: number | string;
   alignItems?: string;
 }>`
   display: flex;
   align-items: center;
-  gap: ${({ gap }) => gap || "4px"};
+  gap: ${({ gap }) => gap || '4px'};
 `;
 
-export const SecondaryTitle = styled("h4")`
+export const SecondaryTitle = styled('h4')`
   font-size: 14px;
-  font-weight: 700;
+  font-weight: 600;
   color: rgb(0, 0, 0);
   margin: 0;
 `;
 
-export const MainTitle = styled("h4")`
+export const MainTitle = styled('h4')`
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 600;
   color: rgb(0, 0, 0);
   margin: 0;
 `;

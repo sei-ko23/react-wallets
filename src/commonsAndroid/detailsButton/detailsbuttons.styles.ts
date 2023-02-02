@@ -11,7 +11,7 @@ export const StyledDetailsButton = styled('button')<{
 }>`
   font-family: 'Product Sans light', sans-serif;
   margin: 0 auto;
-  font-weight: 600;
+  font-weight: 500;
   border-radius: 24px;
   width: 100%;
   margin: 15px 0 5px 0;
@@ -22,7 +22,7 @@ export const StyledDetailsButton = styled('button')<{
   justify-content: center;
   gap: 8px;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 400;
   border: 1px solid #f2ecec;
   background-color: #fff;
   &:hover {

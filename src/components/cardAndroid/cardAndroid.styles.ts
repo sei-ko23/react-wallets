@@ -31,7 +31,7 @@ export const CardContent = styled('div')`
 `;
 
 export const DetailsContainer = styled('div')<{ open: boolean }>`
-  display: flex;
+  display: ${({ open }) => (open ? 'flex' : 'none')};
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;

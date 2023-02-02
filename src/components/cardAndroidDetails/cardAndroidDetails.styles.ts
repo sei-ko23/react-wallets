@@ -40,7 +40,7 @@ export const Value = styled('p')`
 `;
 export const Link = styled('a')`
   max-width: 350px;
-  font-weight: 450;
+  font-weight: 400;
   font-size: 0.92rem;
   margin: 3px 0px;
 `;

@@ -23,7 +23,7 @@ export const Title = styled('h3')<{
   textColor?: string;
 }>`
   color: ${({ textColor }) => textColor || '#000'};
-  font-weight: 450;
+  font-weight: 400;
   font-size: 0.72rem;
   letter-spacing: 0.025em;
   margin: 5px 0px;
@@ -33,7 +33,7 @@ export const Title = styled('h3')<{
 export const Value = styled('h3')<{ textColor?: string }>`
   color: ${({ textColor }) => textColor || '#000'};
   max-width: 350px;
-  font-weight: 450;
+  font-weight: 400;
   font-size: 0.92rem;
   margin: 3px 0px;
   word-break: break-all;
@@ -42,7 +42,7 @@ export const Value = styled('h3')<{ textColor?: string }>`
 
 export const Link = styled('a')`
   max-width: 350px;
-  font-weight: 450;
+  font-weight: 400;
   font-size: 0.92rem;
   margin: 3px 0px;
 `;

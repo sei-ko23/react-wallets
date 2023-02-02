@@ -19,7 +19,7 @@ export const Title = styled('h4')<{
   textColor: string | undefined;
 }>`
   font-size: 0.95rem;
-  font-weight: 500;
+  font-weight: 400;
   color: ${(props) => props.textColor};
   letter-spacing: 2px;
   margin: 0;

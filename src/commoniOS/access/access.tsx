@@ -19,6 +19,10 @@ const Access: FC<AccessProps> = (props) => {
     } else return null;
   };
 
+  if (!accessType) {
+    return null;
+  }
+
   return (
     <Container type={accessType}>
       <ImageContainer>{renderAccessImage()}</ImageContainer>

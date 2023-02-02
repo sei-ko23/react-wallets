@@ -53,5 +53,5 @@ export const AccessCode = styled('p')<{ type: AccessType }>`
       ? '9px auto 0px auto'
       : '11px auto 0px auto'};
   font-size: 14px;
-  font-weight: 450;
+  font-weight: 400;
 `;

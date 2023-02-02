@@ -12,9 +12,9 @@ export const Container = styled('div')<{ type?: AccessType }>`
   padding: 15px 10px;
   border-radius: 4px;
   margin-top: ${({ type }) =>
-    type === 'CODE128' || type === 'PDF417' ? '90px' : '100px'};
+    type === 'CODE128' || type === 'PDF417' ? '10px' : '10px'};
   margin-bottom: ${({ type }) =>
-    type === 'CODE128' || type === 'PDF417' ? '30px' : '45px'};
+    type === 'CODE128' || type === 'PDF417' ? '10px' : '10px'};
   margin-right: auto;
   margin-left: auto;
 `;
@@ -23,7 +23,7 @@ export const ImageContainer = styled('div')`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 5px;
+  padding: 0px;
   border-radius: 4px;
   box-sizing: border-box;
   background: #fff;
@@ -51,7 +51,7 @@ export const Text = styled('p')<{ type: AccessType }>`
       ? '9px auto 0px auto'
       : '11px auto 0px auto'};
   font-size: 14px;
-  font-weight: 450;
+  font-weight: 400;
 `;
 const AnimatedGradient = keyframes`
   from {

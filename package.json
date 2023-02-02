@@ -1,6 +1,6 @@
 {
   "name": "react-wallets",
-  "version": "0.1.6",
+  "version": "0.1.9",
   "description": "Made with create-react-library to display iOS and Android passes in any ReactJs project",
   "author": "astrolab",
   "license": "MIT",
