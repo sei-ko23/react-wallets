@@ -4,7 +4,7 @@
   "description": "Made with create-react-library to display iOS and Android passes in any ReactJs project",
   "author": "astrolab",
   "license": "MIT",
-  "repository": "https://gitlab.com/medfouedslamaAstro/wallets",
+  "repository": "https://github.com/meriem23/react-walelts",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.tsx",
